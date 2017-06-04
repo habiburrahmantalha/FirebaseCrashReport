@@ -43,7 +43,8 @@ public class DrawRoute {
     GoogleMap g_map;
     Context context;
     float zoom_level = 13.0f;
-    String color_hash = "#05b1fb";
+    //String color_hash = "#05b1fb";
+    String color_hash = "#80FFFFFF";
     public onDrawRoute callInterface;
     boolean show_loader = true;
     String loader_msg = "Please wait...";
